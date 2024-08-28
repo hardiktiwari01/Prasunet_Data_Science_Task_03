@@ -1,33 +1,26 @@
-# Titanic Dataset: Data Cleaning and Exploratory Data Analysis (EDA)
+# Decision Tree Classifier for Customer Purchase Prediction
 
-## Project Overview
+## Overview
 
-This project focuses on data cleaning and exploratory data analysis (EDA) using the Titanic dataset. The goal is to prepare the data by handling missing values, removing outliers, and performing EDA to explore relationships between variables and identify patterns.
+This project involves building a Decision Tree Classifier to predict whether a customer will purchase a product or service based on their demographic and behavioral data. The dataset used is the Bank Marketing dataset from the UCI Machine Learning Repository.
 
-## Dataset Description
+## Dataset
 
-The Titanic dataset contains information about the passengers aboard the Titanic. Key columns include:
+The dataset can be found here: [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
-- `PassengerId`: Unique ID for each passenger
-- `Pclass`: Passenger class (1, 2, 3)
-- `Name`: Passenger name
-- `Sex`: Gender
-- `Age`: Age in years
-- `SibSp`: Number of siblings/spouses aboard
-- `Parch`: Number of parents/children aboard
-- `Ticket`: Ticket number
-- `Fare`: Ticket fare
-- `Embarked`: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
-- `Survived`: Survival status (0 = No, 1 = Yes)
+### Description
 
-## Installation
-1. Install required Python packages:
+- **Features**: The dataset includes various demographic and behavioral attributes of customers, such as age, job, marital status, and contact details.
+- **Target Variable**: The target variable is whether the customer subscribed to a term deposit (`y`), with values `yes` or `no`.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Requirements
 
-## Data Cleaning
+- Python 3.x
+- pandas
+- scikit-learn
+- numpy
 
-### Handling Missing Values
+You can install the required packages using pip:
 
+```bash
+pip install pandas scikit-learn numpy
